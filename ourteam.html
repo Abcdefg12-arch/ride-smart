@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .para {
+    background: url('ourteam.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+        .our-team {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .our-team h2 {
+            font-size: 2.5em;
+        }
+
+        .line {
+            display: inline-block;
+            width: 100px;
+            height: 2px;
+            background-color: orange;
+            margin: 0 10px;
+        }
+
+        .team-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .team-member {
+            background: lightgray;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            width: 200px;
+            text-align: center;
+            position: relative;
+        }
+
+        .image-container {
+            position: relative;
+        }
+
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+ 
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+            <span>Text beside logo</span>
+        </div>
+        <nav class="menu">
+            <a href="index.html">Home</a>
+          <a href="#">About</a>
+          <a href="all_courses.html">All Courses</a>
+          <a href="ourteam.html">Our Team</a>
+          <div class="dropdown">
+              <a href="#">More</a>
+              <div class="dropdown-content">
+                  <a href="more.html">Become a Trainer</a>
+              </div>
+          </div>
+          <a href="contact_us.html">Contact</a>
+        </nav>
+        <a href="contact_us.html">
+        <button class="get-started">Get Started</button>
+    </a>
+    </header>
+
+    <section class="para">
+    </section>
+
+    <section class="our-team">
+        <h2>Our Team</h2>
+        <div class="line"></div>
+        <div class="line"></div>
+        <p>Meet the talented individuals behind our success. Each brings unique skills and experiences to our team.</p>
+
+        <div class="team-container">
+            <div class="team-member">
+                <div class="image-container">
+                    <img src="member1.jpg" alt="Member 1" class="profile-image">
+                </div>
+                <b>Member 1</b>
+                <p>Role: Developer</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+            </div>
+            <div class="team-member">
+                <div class="image-container">
+                    <img src="member2.jpg" alt="Member 2" class="profile-image">
+                </div>
+                <b>Member 2</b>
+                <p>Role: Designer</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+            </div>
+            <div class="team-member">
+                <div class="image-container">
+                    <img src="member3.jpg" alt="Member 3" class="profile-image">
+                </div>
+                <b>Member 3</b>
+                <p>Role: Project Manager</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+            </div>
+            <div class="team-member">
+                <div class="image-container">
+                    <img src="member3.jpg" alt="Member 3" class="profile-image">
+                </div>
+                <b>Member 4</b>
+                <p>Role: Project Manager</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+            </div>
+            <div class="team-member">
+                <div class="image-container">
+                    <img src="member3.jpg" alt="Member 3" class="profile-image">
+                </div>
+                <b>Member 5</b>
+                <p>Role: Project Manager</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+            </div>
+            <div class="team-member">
+                <div class="image-container">
+                    <img src="member3.jpg" alt="Member 3" class="profile-image">
+                </div>
+                <b>Member 6</b>
+                <p>Role: Project Manager</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+            </div>
+            <div class="team-member">
+                <div class="image-container">
+                    <img src="member3.jpg" alt="Member 3" class="profile-image">
+                </div>
+                <b>Member 7</b>
+                <p>Role: Project Manager</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+            </div>
+            <div class="team-member">
+                <div class="image-container">
+                    <img src="member3.jpg" alt="Member 3" class="profile-image">
+                </div>
+                <b>Member 8</b>
+                <p>Role: Project Manager</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+            </div>
+            <div class="team-member">
+                <div class="image-container">
+                    <img src="member3.jpg" alt="Member 3" class="profile-image">
+                </div>
+                <b>Member 9</b>
+                <p>Role: Project Manager</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+            </div>
+            <!-- Repeat similar blocks for other members -->
+        </div>
+    </section>
+
+    <footer class="footer background-section3">
+        <div class="footer-left">
+            <h3>Ride-Smart</h3>
+            <p>Empower Your Career with Cutting-Edge AI Skills</p>
+            <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-center">
+            <nav class="footer-nav">
+                <ul>
+                    <h2>Company</h2>    
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">All Courses</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer-right">
+            <h2>Address</h2>
+            <p>
+                CORPORATE OFFICE<br>
+                100 Consilium Place<br>
+                Suite 200 Scarborough,<br> 
+                ON M1H 3E3
+            </p>
+            <p class="phone">+1 647 476 4449</p>
+            <p class="email">info@sarascanada.com</p>
+            
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
